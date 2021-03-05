@@ -23,13 +23,24 @@ h2 { font-size: 3rem; }
 
 /* Navigation */
 
+/*header,
 .flex-container {
 	display: flex;
 	justify-content: space-around;
 }
 
-nav {
+section .flex-container {
+	display: block;
+}*/
+
+/*nav {
 	align-items: center;
+}*/
+
+nav .flex-container {
+	/*width: 50rem;*/
+	justify-content: space-between;
+	/*margin-right: 10rem;*/
 }
 
 .icon-logo {
@@ -39,11 +50,21 @@ nav {
 	fill: #fa4659;
 }
 
-nav .flex-container {
-	width: 50rem;
-	justify-content: space-between;
-	margin-right: 10rem;
+.toggle-btn {
+    border: none;
+    background-color: #9ef7ad;
+    outline: none;
 }
+
+.toggle-btn:hover {
+    cursor: pointer;
+}
+
+svg rect {
+    fill: #124705;
+}
+
+
 
 a {
 	text-decoration: none;
@@ -56,10 +77,10 @@ a:hover {
 
 /* Main */
 
-main {
+/*main {
 	max-width: 130rem;
 	margin: 0 auto;
-}
+}*/
 
 /* Footer */
 
@@ -69,10 +90,10 @@ footer .icon {
 	fill: #ecffe5;
 }
 
-.icon-container {
+/*.icon-container {
 	width: 30rem;
 	margin: 0 auto;
-}
+}*/
 
 footer p {
 	text-align: center;
