@@ -94,7 +94,7 @@ a:hover {
 	height: 1px;
 	border-bottom: 1px solid #124705;
 	margin: 0 auto;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 
 
@@ -125,6 +125,10 @@ section.flex-container p {
 	margin-left: 0;
 }
 
+.box-container:last-of-type {
+	margin-bottom: 2rem;
+}
+
 .box {
 	margin: 2rem;
 	padding: 3rem;
@@ -142,10 +146,9 @@ section.flex-container p {
 }
 
 .heading {
-	width: 90vw;
 	text-align: center;
 	padding: 1rem 0;
-	margin: 0 auto;
+	margin: 0 1rem;
 	background-color: #ecffea;
 }
 
@@ -175,7 +178,7 @@ footer p {
 
 
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 625px){
 	h1 {
 		font-size: 4rem;
 	}
