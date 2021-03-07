@@ -21,17 +21,26 @@ h1 {
 
 h2 { font-size: 3rem; }
 
+
 /* Navigation */
 
-/*header,
-.flex-container {
+header,
+.icon-container {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 }
 
 section .flex-container {
 	display: block;
-}*/
+}
+
+.contact {
+	background-color: #ecffe5;
+	padding: 1rem;
+	border: 1px solid #124705;
+	border-radius: 6px;
+}
 
 /*nav {
 	align-items: center;
@@ -75,12 +84,59 @@ a:hover {
 	opacity: 0.7;
 }
 
+.contact:hover {
+	opacity: 1;
+	background-color: #124705;
+	color: #ecffe5;
+	font-weight: bolder;
+}
+
 /* Main */
 
 /*main {
 	max-width: 130rem;
 	margin: 0 auto;
 }*/
+
+h1, h2{
+	margin: 2rem;
+}
+
+section.flex-container p {
+	margin-left: 2rem;
+}
+
+.box-container:last-of-type {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-container:last-of-type .box {
+	width: 49%;
+}
+
+.box-container:first-of-type .box:last-of-type {
+	margin-bottom: 0;
+}
+
+.box-container:last-of-type .box:last-of-type {
+	margin-left: 0;
+}
+
+.box {
+	margin: 2rem;
+	padding: 3rem;
+	border: 1px solid #124705;
+	background-color: #ecffe5;
+}
+
+.box ul {
+	list-style-type: circle;
+}
+
+.box li {
+	margin-left: 3rem;
+}
 
 /* Footer */
 
@@ -90,10 +146,11 @@ footer .icon {
 	fill: #ecffe5;
 }
 
-/*.icon-container {
+.icon-container {
 	width: 30rem;
 	margin: 0 auto;
-}*/
+	margin-top: 3rem;
+}
 
 footer p {
 	text-align: center;
