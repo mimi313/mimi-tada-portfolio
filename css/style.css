@@ -73,8 +73,6 @@ svg rect {
     fill: #124705;
 }
 
-
-
 a {
 	text-decoration: none;
 	color: #124705;
@@ -91,12 +89,16 @@ a:hover {
 	font-weight: bolder;
 }
 
-/* Main */
-
-/*main {
-	max-width: 130rem;
+.bar {
+	width: 80vw;
+	height: 1px;
+	border-bottom: 1px solid #124705;
 	margin: 0 auto;
-}*/
+	margin-bottom: 2rem;
+}
+
+
+/* Main */
 
 h1, h2{
 	margin: 2rem;
@@ -160,17 +162,65 @@ footer p {
 
 
 
+@media only screen and (min-width: 600px){
+	h1 {
+		font-size: 4rem;
+	}
 
+	h2 {
+		font-size: 2rem;
+	}
 
+	main {
+		max-width: 130rem;
+		margin: 0 auto;
+	}
 
+	.flex-container {
+		display: flex;
+	}
 
+	main section .img-container {
+		order: 1;
+	}
 
+	.box-container:first-of-type .box:first-of-type {
+		margin-bottom: 0;
+	}
 
+	.box-container:first-of-type .box {
+		width: 49%;
+	}
 
-/*main .flex-container {
-	max-width: 	130rem;
-	margin: 0 auto;
+	.box-container:first-of-type .box:last-of-type {
+		margin-left: 0;
+	}
+
+	.box {
+		height: 19rem;
+	}
 }
+
+@media only screen and (min-width: 900px){
+	h1 {
+		font-size: 6rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	.box{
+		height: 17rem;
+	}
+}
+
+
+
+
+
+
+/*
 
 .art .img-container {
 	width: 25%;
