@@ -105,7 +105,7 @@ h1, h2{
 }
 
 section.flex-container p {
-	margin-left: 2rem;
+	margin: 0 2rem;
 }
 
 .box-container:last-of-type {
@@ -140,9 +140,22 @@ section.flex-container p {
 	margin-left: 3rem;
 }
 
+.heading {
+	width: 90vw;
+	text-align: center;
+	padding: 1rem 0;
+	margin: 0 auto;
+	background-color: #ecffea;
+}
+
+.heading {
+	margin-top: 3rem;
+}
+
 /* Footer */
 
-footer .icon {
+footer .icon,
+.icon-container {
 	height: 4rem;
 	width: 4rem;
 	fill: #ecffe5;
@@ -151,7 +164,6 @@ footer .icon {
 .icon-container {
 	width: 30rem;
 	margin: 0 auto;
-	margin-top: 3rem;
 }
 
 footer p {
@@ -188,17 +200,16 @@ footer p {
 		margin-bottom: 0;
 	}
 
-	.box-container:first-of-type .box {
+	.box {
 		width: 49%;
+		height: 25rem;
 	}
 
-	.box-container:first-of-type .box:last-of-type {
+	.box-container .box:last-of-type {
 		margin-left: 0;
 	}
 
-	.box {
-		height: 19rem;
-	}
+
 }
 
 @media only screen and (min-width: 900px){
@@ -211,7 +222,7 @@ footer p {
 	}
 
 	.box{
-		height: 17rem;
+		height: 22rem;
 	}
 }
 
