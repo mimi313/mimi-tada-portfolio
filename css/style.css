@@ -21,6 +21,7 @@ h1 {
 }
 
 h2 { font-size: 3rem; }
+h3 { font-size: 1.9rem; }
 
 
 /* Navigation */
@@ -144,6 +145,7 @@ section.flex-container p {
 
 .box li {
 	margin-left: 3rem;
+	word-wrap: break-word;
 }
 
 .heading {
