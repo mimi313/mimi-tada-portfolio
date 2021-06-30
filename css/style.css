@@ -69,11 +69,10 @@ nav .flex-container {
 nav li,
 .contact {
 	padding: 1rem;
-	padding-left: 3rem;
 }
 
-header a {
-	display: block;
+nav li:last-of-type {
+	margin-bottom: 1rem;
 }
 
 header nav {
@@ -231,6 +230,10 @@ footer p {
     header>.flex-container {
     	width: 20rem;
     }
+
+    nav li:last-of-type {
+		margin-bottom: 0;
+	}
 
 	.contact:hover {
 		opacity: 1;
