@@ -50,10 +50,10 @@ nav .flex-container {
 }
 
 .icon-logo {
-	width: 12.5rem;
+	/* width: 12.5rem; */
 	height: 9rem;
 	margin: 2rem;
-	fill: #fa4659;
+	/* fill: #fa4659; */
 }
 
 .toggle-btn {
