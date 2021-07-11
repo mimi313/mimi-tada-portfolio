@@ -150,6 +150,10 @@ section .text-container {
 #about {
 	background-color: #288f16;
 }
+
+#about img {
+	max-width: 100%;
+}
 /*
 .box-container:last-of-type {
 	display: flex;
@@ -227,15 +231,20 @@ footer p {
 	height: 18rem;
 }
 
-/* Modal Trigger */
-
-#modalBtn {
-	border-radius: 1rem;
-	transition: height 0.4s;
-	transition: border-radius 0.2s;
+#projects h3 {
+	padding-left: 3rem;
+	width: 100%;
+	margin-bottom: 1rem;
 }
 
-#modalBtn:hover {
+/* Modal Trigger */
+
+#projects #modalBtn {
+	border-radius: 1rem;
+	transition: all 0.4s;
+}
+
+#projects #modalBtn:hover {
 	border-radius: 0.5rem;
 	height: 33rem;
 	cursor: pointer;
@@ -422,9 +431,7 @@ footer p {
 		order: 1;
 	}
 
-	#about img {
-		max-width: 100%;
-	}
+
 
 	.box-container:first-of-type .box:first-of-type {
 		margin-bottom: 0;
