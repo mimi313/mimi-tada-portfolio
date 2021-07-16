@@ -52,7 +52,7 @@ $(document).ready(function () {
 		$(resume).addClass("hover");
 	});
 	$(resume).on("mouseleave", function () {
-		$(resume).html("Want to know me more?");
+		$(resume).html("Want to know more about me?");
 		$(resume).removeClass("hover");
 	});
 });

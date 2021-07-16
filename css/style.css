@@ -189,6 +189,7 @@ footer p {
 	/*border: 1px solid #124705;*/
 	background-color:#FAF9F6;
 	box-shadow: 2px 2px 11px 0px #124705;
+	height: 30rem;
 }
 
 .box ul {
@@ -231,7 +232,7 @@ footer p {
 	height: 18rem;
 }
 
-#projects h3 {
+#projects  h2 {
 	padding-left: 3rem;
 	width: 100%;
 	margin-bottom: 1rem;
@@ -326,19 +327,22 @@ footer p {
 	align-items: center;
 }
 
-.center button {
-	text-align: center;
-	border: none;
+
+#resume:hover {
+	cursor: pointer;
+	width: 27rem;
 	background-color: #288f16;
-	font-weight: bolder;
-	padding: 2rem;
-	width: 25rem;
 }
 
-.center button:hover {
-	cursor: pointer;
-	width: 25rem;
-	background-color:rgba(237,67,147,1);
+#resume {
+	text-align: center;
+	border: none;
+	color: #FAF9F6;
+	background-color: rgba(237,67,147,1);
+	font-weight: bolder;
+	border-radius: 6px;
+	padding: 2rem;
+	width: auto;
 }
 
 /* Footer */
@@ -399,8 +403,7 @@ footer p {
     	width: 20rem;
     }
 	
-	a.contact,
-	#resume {
+	a.contact {
 		color: #FAF9F6;
 		background-color: rgba(237,67,147,1);
 		font-weight: bolder;
@@ -439,7 +442,7 @@ footer p {
 
 	.box {
 		width: 49%;
-		height: 30rem;
+		height: 35rem;
 	}
 
 	.box-container .box:last-of-type {
@@ -476,8 +479,8 @@ footer p {
 		width: 40rem;
 	}
 
-	.box{
-		height: 26rem;
+	.box {
+		height: 30rem;
 	}
 
 	header>.flex-container {
