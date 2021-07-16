@@ -442,11 +442,17 @@ footer p {
 
 	.box {
 		width: 49%;
-		height: 35rem;
+		height: 25rem;
 	}
 
-	.box-container .box:last-of-type {
+	.box-container:last-of-type .box {
+		width: 31%;
+		height: 50rem;
 		margin-left: 0;
+	}
+
+	.box-container .box:first-of-type {
+		margin-left: 2rem;
 	}
 
 	.box-container:last-of-type {
@@ -480,7 +486,11 @@ footer p {
 	}
 
 	.box {
-		height: 30rem;
+		height: 18rem;
+	}
+
+	.box-container:last-of-type .box {
+		height: 40rem;
 	}
 
 	header>.flex-container {
