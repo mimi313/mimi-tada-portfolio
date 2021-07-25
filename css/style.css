@@ -247,7 +247,8 @@ footer p {
 
 #projects #modalBtn:hover {
 	border-radius: 0.5rem;
-	height: 33rem;
+	/* height: 33rem; */
+	transform: scale(1.05);
 	cursor: pointer;
 }
 
@@ -316,6 +317,22 @@ footer p {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+/* Awards */
+
+#awards {
+	color: #001134;
+}
+
+#awards section {
+	box-shadow: 4px 4px 15px 2px #000000;
+	margin: 3rem 2rem;
+	padding: 2rem;
+}
+
+h5 {
+	margin: 1rem 0;
 }
 
 /* Resume */
@@ -469,6 +486,10 @@ footer p {
 		height: 30rem;
 	}
 
+	#awards section {
+		width: 20rem;
+		height: 30rem;
+	}
 
 }
 
@@ -513,6 +534,12 @@ footer p {
 
 	.modal-content .flex-container {
 		flex-wrap: wrap;
+	}
+
+	#awards section {
+		width: 35rem;
+		height: 30rem;
+		padding: 5rem;
 	}
 }
 
