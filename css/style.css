@@ -390,7 +390,6 @@ footer p {
 @media only screen and (min-width: 625px){
 	h1 {
 		font-size: 4rem;
-		margin-top: 0;
 	}
 
 	h2 {
@@ -501,6 +500,7 @@ footer p {
 @media only screen and (min-width: 900px){
 	h1 {
 		font-size: 6rem;
+		margin-top: 0;
 	}
 
 	h2 {
